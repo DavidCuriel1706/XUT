@@ -1,4 +1,4 @@
-<img src="https://github.com/DavidCuriel1706/XUT/blob/main/XUT%20EXT.svg" alt="Project logo XUT"></a>
+<img src="https://github.com/DavidCuriel1706/XUT/blob/master/XUT%20EXT.svg" alt="Project logo XUT"></a>
 <h1 align="center">XUT (Xtreme-View Universal Technology)</h1> 
 
 <p align="center">
