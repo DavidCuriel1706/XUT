@@ -51,7 +51,3 @@ Descarga el archivo comprimido de este repositorio (https://github.com/DavidCuri
 ```
 python3 start.py
 ```
-
-## 5.- Registrate en la pagina
-
-
