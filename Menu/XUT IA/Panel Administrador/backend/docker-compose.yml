@@ -1,0 +1,27 @@
+version: '3'
+
+services:
+
+    web:
+        container_name: inicios
+        restart: always
+        build: .
+        ports:
+        - "5000:5000"
+        links: 
+          - mongo
+
+    web2:
+        container_name: registros
+        restart: always
+        build: .
+        ports:
+        - "5001:5001"
+        links: 
+          - mongo
+
+    mongo:
+      container_name: usuarios
+      image: mongo
+      ports: 
+            - "27017:27017"

@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+}
+
+
+.contenedortodo {
+    
+    height: 100vh;   
+}
+
+body, html {
+    background-color: #15171B;
+    justify-content: center;
+}
+
+.logo1 {
+    height: auto;
+    width: 5rem;
+}
+
+.logosalir {
+    height: auto;
+    width: 4rem;
+}
+
+.titulo {
+    color: #8FFF00;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+
+.todocontenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    padding: 1rem;
+    margin: 1rem auto;
+    background-color: #1E1E1E;
+    border-radius: 17px;
+}
+
+/* abajo */
+
+.contenedorAbajo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedorIzquierda {
+    background-color: #1E1E1E;
+    display: flex;
+    flex-direction: column;
+    margin: 0 2rem 0 0;
+    width: 30rem;
+    max-width: 30rem;
+
+}
+
+.enlaces {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.enlaces a {
+    text-decoration: none;
+    text-align: center;
+    color: #8FFF00;
+    font-size: 2rem;
+    width: 100%;
+    border: 1px solid #90EDC6;
+    border-radius: 8px;
+    padding: 1rem 0;
+    cursor: pointer;
+}
+
+.enlaces .configuracion {
+    color: #15171B;
+    background-color: #8FFF00;
+}
+
+.hmenu {
+    color: #8FFF00;
+    font-size: 2rem;
+    margin: 8px 0;
+}
+
+.desarrollado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+    color: white;
+}
+
+.logo2 {
+    height: auto;
+    width: 6rem;
+}
+
+.parrafos {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+
+
+
+.contenedorDerecha {
+    background-color: #1E1E1E;
+    width: 100%;
+    height: 100vh;
+    border: 1px solid #90EDC6;
+
+}

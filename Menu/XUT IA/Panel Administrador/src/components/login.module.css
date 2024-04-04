@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    background-color: #15171B;
+}
+
+input {
+    color: white;
+    background-color: #1E1E1E;
+    box-shadow: none;
+    border: 1px solid #90EDC6;
+    border-radius: 3px;
+    margin: 10px 0 10px 0;
+    padding: 8px;
+}
+
+.todos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: #8FFF00;
+    text-align: center;
+    font-size: 3rem;
+    margin: 1rem 0 1rem 0;
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
+
+.division {
+    background-color: #8FFF00;
+    height: 1px;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    color: #8FFF00;
+    margin: 2rem 0 0 0;
+    padding: 1rem;
+    background-color: #1E1E1E;
+    border: 1px solid #8FFF00;
+    border-radius: 5px;
+    width: auto;
+}
+
+.olvidaste {
+    color: #8FFF00;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn {
+    color: #15171B;
+    background-color: #8FFF00;
+    padding: 9px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    text-decoration: none;
+    
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1E1E1E;
+    border: 1px solid #8FFF00;
+    border-radius: 5px;
+    margin-top: 1rem;
+    padding: 1rem;
+    width: auto; /* O elimina esta línea */
+    gap: 39px;
+}
+
+
+
+
+
+
+
